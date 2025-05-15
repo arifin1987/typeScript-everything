@@ -33,7 +33,7 @@ type BackEndDev = {
     designation2: 'Backend Dev'
 }
 
-type FullStackDev = FrontEndDev & BackEndDev
+type FullStackDev = FrontEndDev & BackEndDev;
 
 const fullStackDev : FullStackDev = {
     skills:['HTML', 'CSS', 'Express'],

@@ -1,3 +1,4 @@
+{
 // spread Operator for Array
 
 const bros1 = ["rahim", 'karim', 'jasim']
@@ -20,15 +21,17 @@ const mentors2 = {
 }
 
 const mentorList = {...mentors1, ...mentors2}
-// console.log(mentorList)
+console.log(mentorList)
 
 // Rest Operator
 
 const friendZone = (...friends:string[])=>{
     friends.forEach((friend:string)=>{
-        console.log(`hello ${friend}`)
+        // console.log(`hello ${friend}`)
     })
 
 }
 
 friendZone('hasib', 'aziz', 'sohel')
+
+}
